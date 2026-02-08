@@ -1,0 +1,8 @@
+{
+  "name": "Raunak - Premium Digital Marketing Portfolio",
+  "description": "A high-end, responsive portfolio for a digital marketing expert featuring animated UI, case studies, performance dashboards, and creative galleries.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

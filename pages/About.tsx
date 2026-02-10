@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, Shield, Heart, Coffee, Globe, Linkedin, Twitter } from 'lucide-react';
+import { Target, Shield, Heart, Coffee, Globe, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const About: React.FC = () => {
   return (

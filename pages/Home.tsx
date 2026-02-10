@@ -22,13 +22,12 @@ const Home: React.FC = () => {
           </div>
           
           <h1 className="text-5xl md:text-8xl font-black font-display tracking-tight leading-[1.1] mb-8">
-            Performance Systems That <br />
-            <span className="text-gradient">Grow Academies Predictably.</span>
+            I Don’t Run Ads—I Build Systems That <br />
+            <span className="text-gradient">Bring Customers Every Week.</span>
           </h1>
           
           <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
-            I build admission pipelines for academies in the US, UK, Europe, and Australia. 
-            Full-stack Meta Ads, funnels, automation, and CRM systems engineered to increase admissions and cut lead wastage.
+            Full-stack ads, funnels, automation, and CRM systems designed to drive growth and eliminate lead wastage.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">

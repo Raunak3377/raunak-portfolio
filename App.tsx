@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronRight, MessageSquare, ArrowRight, Instagram, Linkedin, Globe, Zap, BarChart3, Target, Film, Layers, User } from 'lucide-react';
@@ -120,8 +119,8 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <a href="https://wa.me/917766828618" target="_blank" className="p-3 glass-card rounded-full hover:bg-brand-accent transition-colors"><MessageSquare size={20} /></a>
-            <a href="#" className="p-3 glass-card rounded-full hover:bg-brand-accent transition-colors"><Instagram size={20} /></a>
-            <a href="#" className="p-3 glass-card rounded-full hover:bg-brand-accent transition-colors"><Linkedin size={20} /></a>
+            <a href="https://www.instagram.com/raunak4_/" className="p-3 glass-card rounded-full hover:bg-brand-accent transition-colors"><Instagram size={20} /></a>
+            <a href="https://www.linkedin.com/in/raunak-kumar77/" className="p-3 glass-card rounded-full hover:bg-brand-accent transition-colors"><Linkedin size={20} /></a>
           </div>
         </div>
         <div>

@@ -9,8 +9,8 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative z-10 rounded-[3rem] overflow-hidden border-4 border-white/5 shadow-2xl">
               <img
-                src="https://picsum.photos/800/1000?man-portrait"
-                alt="Raunak"
+                src="/raunak.png"
+                alt="Raunak - Growth Marketer and Ads Strategist"
                 className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700"
               />
             </div>
@@ -73,16 +73,16 @@ const About: React.FC = () => {
 
             <div className="flex items-center gap-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/raunak-kumar77/"
                 className="flex items-center gap-2 text-white hover:text-brand-accent transition-colors font-bold"
               >
                 <Linkedin size={20} /> LinkedIn
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/raunak4_/"
                 className="flex items-center gap-2 text-white hover:text-brand-accent transition-colors font-bold"
               >
-                <Twitter size={20} /> Twitter
+                <Instagram size={20} /> Instagram
               </a>
               <a
                 href="#"
@@ -108,6 +108,19 @@ const About: React.FC = () => {
             <div className="text-3xl font-black">MAKE.COM</div>
           </div>
         </div>
+
+        {/* Structured Data for SEO */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Raunak",
+            "jobTitle": "Growth Marketer & Ads Strategist",
+            "image": "https://github.com/Raunak3377/raunak-portfolio/blob/main/pages/images/raunak.png",
+            "description": "I build acquisition and admission systems for beauty academies and vocational training institutes across the US, UK, Europe, and Australia.",
+            "url": "https://raunak-portfolio.com"
+          })}
+        </script>
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Send, MessageSquare, Mail, MapPin, Phone, ArrowRight, Instagram, Linkedin, Twitter } from 'lucide-react';
 
@@ -43,13 +42,13 @@ const Contact: React.FC = () => {
             </p>
 
             <div className="space-y-8 mb-16">
-              <a href="mailto:hello@raunak.marketing" className="flex items-start gap-6 group">
+              <a href="mailto:raunak8820@gmail.com" className="flex items-start gap-6 group">
                 <div className="p-4 glass-card rounded-2xl group-hover:bg-brand-accent transition-colors">
                   <Mail className="text-white" />
                 </div>
                 <div>
                   <h4 className="text-gray-500 font-bold uppercase tracking-widest text-xs mb-1">Email Me</h4>
-                  <p className="text-xl font-bold text-white">hello@raunak.marketing</p>
+                  <p className="text-xl font-bold text-white">raunak8820@gmail.com</p>
                 </div>
               </a>
 
@@ -63,20 +62,13 @@ const Contact: React.FC = () => {
                 </div>
               </a>
 
-              <div className="flex items-start gap-6">
-                <div className="p-4 glass-card rounded-2xl">
-                  <MapPin className="text-white" />
-                </div>
-                <div>
-                  <h4 className="text-gray-500 font-bold uppercase tracking-widest text-xs mb-1">Based In</h4>
-                  <p className="text-xl font-bold text-white">Dubai / Remote Worldwide</p>
-                </div>
+              <div className="flex gap-4">
+                <a href="https://www.instagram.com/raunak4_/" className="p-4 glass-card rounded-2xl hover:text-brand-accent transition-all"><Instagram /></a>
+                <a href="https://www.linkedin.com/in/raunak-kumar77/" className="p-4 glass-card rounded-2xl hover:text-brand-accent transition-all"><Linkedin /></a>
               </div>
             </div>
 
             <div className="flex gap-4">
-              <a href="#" className="p-4 glass-card rounded-2xl hover:text-brand-accent transition-all"><Instagram /></a>
-              <a href="#" className="p-4 glass-card rounded-2xl hover:text-brand-accent transition-all"><Linkedin /></a>
               <a href="#" className="p-4 glass-card rounded-2xl hover:text-brand-accent transition-all"><Twitter /></a>
             </div>
           </div>
